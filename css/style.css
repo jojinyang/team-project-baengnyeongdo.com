@@ -1,0 +1,50 @@
+body{
+    font: 16px/1.5;
+    font-family : 'Noto Sans KR', sans-serif;
+}
+
+#nav-pop{
+    display: none;
+}
+header{
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid #0d69af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo{
+}
+.nav{
+    font-size: 30px;
+    color: #0d69af;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    right: 5%;
+    top: 50%;
+}
+.slide{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    font-size: 0;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.btns{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    bottom: 5%;
+    left: 50%;
+    display: flex;
+    column-gap: .825rem;
+}  
+.btns li{
+    background-color: #0d69af;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
