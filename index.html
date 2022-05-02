@@ -16,20 +16,26 @@
     <title>백령도</title>
 </head>
 <body>
-    <div id="nav-pop">
-        <ul class="gnb">
-            <li><a href="#">백령도</a></li>
-            <li><a href="#">백령도 여행</a></li>
-            <li><a href="#">점박이 물범</a></li>
-            <li><a href="#">공지사항</a></li>
-        </ul>
-    </div>
+    
     <header>
-        <div class="logo">
-            <a href="#"><img src="images/logo.png" alt="백령도로고이미지"></a>
-        </div>
-        <div class="nav">
-            <i class="fa-solid fa-bars"></i>
+        <div class="header-wrap">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="백령도로고이미지"></a>
+            </div>
+            <div class="nav">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="nav-pop">
+                <div class="nav-x">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <ul class="gnb">
+                    <li><a href="#">백령도</a></li>
+                    <li><a href="#">백령도 여행</a></li>
+                    <li><a href="#">점박이 물범</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <section>
@@ -53,32 +59,33 @@
             <div class="seal-content">
                 <p>백령도 귀염둥이</p>
                 <h3>점박이 물범 보러오세요!</h3>
-                <div class="container">
+                <div class="seal-container">
+                    <span class="line-box"></span>
                     <div class="seal-banner">
                         <ul class="seal-items">
-                            <li><a href="#"><img src="images/Index/article1-banner1.png" alt="점박이물범"></a></li>
                             <li><a href="#"><img src="images/Index/article1-banner2.png" alt="점박이물범2"></a></li>
+                            <li><a href="#"><img src="images/Index/article1-banner1.png" alt="점박이물범"></a></li>
                         </ul>
                     </div>
                     <div class="seal-boxs">
                         <ul class="seal-box1">
+                            <li><img class="round-seal"src="images/Index/article1-button2.png" alt="물범 이미지"></li>
                             <li>
                                 <a href="#">
                                     <h2>서식지<br>정보</h2>
-                                    <img src="images/go-btn.png" alt="보러가기">
+                                    <img class="go" src="images/go-btn.png" alt="보러가기">
                                 </a>
                             </li>
-                            <li><img src="images/Index/article1-button1.png" alt="물범 이미지"></li>
                         </ul>
                         <ul class="seal-box2">
                             <li>
                                 <a href="#">
                                     <p>점박이 물범?</p>
                                     <p>더 알아보기</p>
-                                    <img src="images/go-btn.png" alt="보러가기">
+                                    <img class="go" src="images/go-btn.png" alt="보러가기">
                                 </a>
                             </li>
-                            <li><a href="#"><img src="images/index/article1-button2.png" alt="관광코스보기"></a></li>
+                            <li><a href="#"><img src="images/index/article1-button1.png" alt="관광코스보기"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -90,12 +97,6 @@
                 <p>어디로 갈까요?</p>
                 <h3>자연 명관 백령도 여행지</h3>
                 <div class="trip-container">
-                    <div class="trip-banner">
-                        <ul class="trip-items">
-                            <li><img src="images/Index/article2-banner.png" alt="백령도자연명관"></li>
-                            <li><img src="images/Index/article2-banner2.png" alt="백령도자연명관"></li>
-                        </ul>
-                    </div>
                     <div class="trip-boxs">
                         <ul class="trip-box1">
                             <li>
@@ -104,18 +105,26 @@
                                 </a>
                             </li>
                             <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                <p>오시는길</p>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>오시는길</p>
+                                </a>
                             </li>
                         </ul>
                         <ul class="trip-box2">
                             <li>
                                 <a href="#">
-                                    <i class="fa-solid fa-sack-dollar"></i>
+                                    <i class="fa-solid fa-coins"></i>
                                     <p>요금안내</p>
                                 </a>
                             </li>
                             <li><a href="#"><img src="images/index/article2-button2.png" alt="관람/체험 알아보기"></a></li>
+                        </ul>
+                    </div>
+                    <div class="trip-banner">
+                        <ul class="trip-items">
+                            <li><img src="images/Index/article2-banner.png" alt="백령도자연명관"></li>
+                            <li><img src="images/Index/article2-banner2.png" alt="백령도자연명관"></li>
                         </ul>
                     </div>
                 </div>
@@ -123,8 +132,10 @@
         </div>
         <!-- /.content-2 -->
         <div class="content-3">
-            <h3>백령도 여행 미리보기</h3>
-            <iframe width="800" height="400" src="https://www.youtube.com/embed/elsybGXUdgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-wrap">
+                <h3>백령도 여행 미리보기</h3>
+                <iframe src="https://www.youtube.com/embed/elsybGXUdgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
         <!-- /.content-3 -->
     </section>
