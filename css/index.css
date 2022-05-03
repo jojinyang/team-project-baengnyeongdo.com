@@ -7,6 +7,10 @@
     overflow: hidden;
     position: relative;
 }
+#items{
+    display: flex;
+    transition: all ease-in-out .3s;
+}
 .btns{
     position: absolute;
     transform: translate(-50% , -50%);
@@ -70,6 +74,10 @@
     left: -8%;
     opacity: 30%;
 }
+.top{
+    opacity: 1 !important;
+    z-index: 10;
+}
 .seal-banner{
     width: 400px;
     height: 400px;
@@ -77,6 +85,9 @@
 }
 .seal-items > li{ 
     position: absolute;
+    transition: all ease-in-out .3s;
+    opacity: 0;
+    z-index: 0;
 }
 .seal-box1{
     display: flex;
@@ -94,7 +105,7 @@
 }
 .seal-box1 > li:nth-child(1){
     box-sizing: border-box;
-    background: #0d69af;
+    background: #139ea1;
     width: 200px;
     height: 200px;
 }
@@ -111,7 +122,7 @@
     box-sizing: border-box;
     width: 200px;
     height: 200px;
-    background-color: #139ea1;
+    background-color: #0d69af;
 }
 .seal-box2 > li:nth-child(1){
     box-sizing: border-box;
