@@ -36,7 +36,7 @@ header{
 .nav li {
     position: absolute;
 }
-.slide{
+/* .slide{
     width: 1200px;
     height: 500px;
     margin: 0 auto;
@@ -298,7 +298,7 @@ iframe{
     width: 800px;
     height: 400px;
     padding: 100px;
-}
+} */
 footer{
     box-sizing: border-box;
     width: 100%;
