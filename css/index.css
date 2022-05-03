@@ -22,42 +22,7 @@
     height: 15px;
     border-radius: 100%;
 }
-#nav-pop{
-    z-index: 1000;
-    position: absolute;
-    transform: translate(-100% , 0);
-    left: 100%;
-    top: 0;
-    width: 30%;
-    background: #fff;
-    color: #0d69af;
-}
-.nav-x{
-    box-sizing: border-box;
-    height: 150px;
-    text-align: right;
-    font-size: 40px;
-    margin-right: 4.25rem;
-    line-height: 150px;
-}
-.gnb{
-    border: 1px solid #0d69af;
-}
-.gnb li{
-    font-size: 1.5rem;
-    font-weight: bold;
-    height: 5rem;
-    border-bottom: 1px solid #0d69af;
-    text-align: center;
 
-}
-.gnb li > a{
-    height: 5rem;
-    line-height: 5rem;
-}
-.gnb li > a:hover{
-    color: #139ea1;
-}
 .content-1{
     height: 754px;
     width: 100%;
