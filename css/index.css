@@ -216,6 +216,7 @@
 }
 .trip-items li{
     position: absolute;
+    transition: all ease-in-out .3s;
 }
 .video-wrap{
     width: 1200px;
