@@ -5,25 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>백령도</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c57713e8e.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/trip.css">
 </head>
 <body>
-    <div id="main">
-        <div class="article-wrap">
-            <article>
+    <header>
+        <div class="header-wrap">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="백령도로고이미지"></a>
+            </div>
+            <div class="nav">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="nav-pop">
+                <div class="nav-x">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <ul class="gnb">
+                    <li><a href="#">백령도</a></li>
+                    <li><a href="#">백령도 여행</a></li>
+                    <li><a href="#">점박이 물범</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="wrap">
+        <div class="contents">
+            <div class="attraction">
                 <h2>자연명소</h2>
-                <ul class="attraction-items">
+                <ul class="bonmun">
                     <li>
-                        <img src="images/trip/trip1-1.png" alt="콩돌 해수욕장">
+                        <a href="#">
+                            <img src="images/trip/trip1-1.png" alt="콩돌 해수욕장">
+                                <p class="tit">콩돌 해수욕장</p>
+                                <p class="su">인천 옹진군 백령군 남포리 1764-6</p>
+                        </a>
                     </li>
                     <li>
-                        <img src="images/trip/trip1-2.png" alt="사곶 해수욕장">
+                        <a href="#">
+                            <img src="images/trip/trip1-2.png" alt="사곶 해수욕장">
+                                <p class="tit">사곶 해수욕장</p>
+                                <p class="su">인천 옹진군 백령면 사곶로 139</p>
+                        </a>
                     </li>
                     <li>
-                        <img src="images/trip/trip1-3.png" alt="하늬 해변gg">
+                            <a href="#">
+                                <img src="images/trip/trip1-3.png" alt="하늬 해변">
+                                <p class="tit">하늬해변</p>
+                                <p class="su">인천 옹진군 백령면 진촌리 산1-1</p>
+                        </a>
                     </li>
                 </ul>
-            </article>
+            </div>
+        </div>
+        <div class="content-3">
+            <div class="video-wrap">
+                <h3>백령도 여행 미리보기</h3>
+                <iframe src="https://www.youtube.com/embed/elsybGXUdgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-wrap">
+            <div class="foot-menu">
+                <ul>
+                    <li><a href="#">백령도</a></li>
+                    <li><a href="#">백령도 여행</a></li>
+                    <li><a href="#">점박이 물범</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div>
+             <p>Since 2022 Baengyeondo Site. All right reserved</p>
+             <p>인천광역시 옹진궁 백령면 진촌리</p>
+             <ul class="site">
+                 <li><a href="#"><img src="images/incheon mono.png" alt="인천광역시"></a></li>
+                 <li><a href="#"><img src="images/incheonnews nomo.png" alt="인천뉴스"></a></li>
+                 <li><a href="#"><img src="images/ongjin mono.png" alt="옹진군"></a></li>
+                 <li><a href="#"><img src="images/education mono.png" alt="인천교육청"></a></li>
+                 <li><a href="#"><img src="images/environment nomo.png" alt="환경운동연합"></a></li>
+             </ul>
+        </div>
+    </footer>
+    <script src="script/index.js"></script>
 </body>
 </html>
