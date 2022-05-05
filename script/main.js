@@ -1,15 +1,24 @@
+let i = 0;
 $(function(){
+    menu();
     //슬라이드
+    // init();
+    // back();
     //배너
     //메뉴탭
-    menu();
 })
 function menu(){
-    $("#nav-pop").hide();
-    $('.nav').click(function(){
-        $("#nav-pop").slideDown();
+    $('.menu_bar').click(function(){
+        $('.nav').slideDown();
+        $('.icons').fadeIn();
+        $('.menu_bar').hide();
+        $('.menu_x').show();
     })
-    $('.nav-x').click(function(){
-        $("#nav-pop").slideUp();
+    $('.menu_x').click(function(){
+        $('.nav').slideUp();
+        $('.icons').fadeOut();
+        $('.menu_bar').show();
+        $('.menu_x').hide();
     })
+  
 }
