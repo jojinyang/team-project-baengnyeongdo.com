@@ -141,7 +141,6 @@ footer p {
 
 /* footer */
 /* ============================================반응형====================================================== */
-
 @media screen and (max-width: 768px) { 
    header{
        /* position: fixed;
@@ -250,7 +249,6 @@ footer p {
     color: #0d69af;
     background: #fff;
     }
-    /* header */
     
     /* footer */
     .footer-wrap{
@@ -290,9 +288,30 @@ footer p {
     .icons{
         right: -14%;
     }
+    .slide{
+        width: 100vw;
+        height: 170px;
+        overflow: hidden;
+    }
+    #itmes{
+        width: 100vw;
+        height: 170px;
+    }
+    #items > li{
+        width: 100vw;
+        height: 170px;
+    }
+    
     .foot-menu{
         display: none;
     }
 }
-
+@media only screen and (max-device-width: 480px){
+    .icons{
+        right: -16%;
+    }
+    .foot-menu{
+        display: none;
+    }
+}
 

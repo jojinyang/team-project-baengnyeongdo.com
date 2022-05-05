@@ -1,7 +1,5 @@
 
 
-/* header-start */
-/* header */
 /* slide */
 .slide{
     width: 100vw;
@@ -351,9 +349,7 @@ iframe{
     padding: 10vw;
 }
 /* video */
-/* footer */
 
-/* footer */
 /* ============================================반응형====================================================== */
 @media screen and (max-width: 1200px){
     .slide{
@@ -452,11 +448,23 @@ iframe{
         font-size: 1rem;
         margin-top:5vw  0;
     }
-    /* footer */
-   
+    
 }
 @media screen and (max-width: 320px) {
-   
+    
+    .slide{
+        width: 100vw;
+        height: 100px;
+        overflow: hidden;
+    }
+    #itmes{
+        width: 100vw;
+        height: 100px;
+    }
+    #items > li{
+        width: 100vw;
+        height: 100px;
+    }
     /* seal-box */
     .content-1{
         padding-bottom: 50px;
@@ -484,10 +492,23 @@ iframe{
         font-size: .5rem;
         margin-top:5vw  0;
     }
-   
+    
 }
 @media screen and (max-width: 425px){
-    
+   
+    .slide{
+        width: 100vw;
+        height: 170px;
+        overflow: hidden;
+    }
+    #itmes{
+        width: 100vw;
+        height: 170px;
+    }
+    #items > li{
+        width: 100vw;
+        height: 170px;
+    }
     /* seal-box */
     .h2-wrap{
         font-size: 1rem;
@@ -524,8 +545,91 @@ iframe{
     .trip-box2 li:nth-child(1) i{
         font-size: 2rem;
     }
-    /* trip */
-   
+    
 }
-
+@media only screen and (max-device-width: 480px){
+    
+    .slide{
+        width: 100vw;
+        height: 170px;
+        overflow: hidden;
+    }
+    #itmes{
+        width: 100vw;
+        height: 170px;
+    }
+    #items > li{
+        width: 100vw;
+        height: 170px;
+    }
+    /* seal-box */
+    .content-1{
+        background: url('../images/index/article1-bg.png') no-repeat center/cover;
+        padding-bottom: 50px;
+    }
+    .seal-content h3{
+        font-weight: bolder;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .seal-content p{
+        font-weight: bold;
+        padding-top: 50px;
+        font-size: 12px;
+    }
+    .h2-wrap{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .go-btn{
+        padding: 10px;
+    }
+    .seal-box2 > li:nth-child(1) .h2-wrap{
+        padding: 8px;
+        font-size: 11px;
+    }
+    /* seal-box */
+    /* trip */
+    .content-2{
+        background: url('../images/index/article2-bg.png') no-repeat center/cover;
+        padding-bottom: 50px;
+    }
+    .trip{
+        max-width: 100vw;
+    }
+    .trip > h3{
+        font-weight: bold;
+        font-size: 16px;
+        padding-top: .5rem;
+        padding-bottom: 30px;
+    }
+    .trip > p{
+        font-weight: bold;
+        padding-top: 50px;
+        font-size: 12px;
+    }
+    .trip-box1 li{
+        padding: 0;
+    }
+    .trip-box1 li:nth-child(2) p{
+        padding: 0;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .trip-box1 li:nth-child(2) i{
+        font-size: 2rem
+    }
+    .trip-box2 li{
+        padding: 0;
+    }
+    .trip-box2 li:nth-child(1) p{
+        padding: 0;
+        font-weight: bold;
+        font-size: 9px;
+    }
+    .trip-box2 li:nth-child(1) i{
+        font-size: 2rem;
+    }
+    /* trip */
+}
 
