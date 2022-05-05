@@ -138,6 +138,16 @@ footer p {
 .site > li > a > img{
     height: 100%;
 }
+.up{
+    z-index: 10;
+    transform: translate(-50% , -5%);
+    color: #139ea1;
+    opacity: 50%;
+    position: fixed;
+    font-size: 50px;
+    right: 25px;
+    bottom: 25px;
+}
 
 /* footer */
 /* ============================================반응형====================================================== */
@@ -261,6 +271,11 @@ footer p {
         font-size: 5px;
         margin: 1rem;
     }
+    .up{
+        font-size: 40px;
+        right: 10px;
+        bottom: 10px;
+    }
 }
 @media screen and (max-width: 320px) {
     .icons{
@@ -282,6 +297,11 @@ footer p {
     
     .foot-menu{
         display: none;
+    }
+    .up{
+        font-size: 30px;
+        right: 10px;
+        bottom: 10px;
     }
 }
 @media screen and (max-width: 425px){
@@ -305,13 +325,23 @@ footer p {
     .foot-menu{
         display: none;
     }
+    .up{
+        font-size: 35px;
+        right: 20px;
+        bottom: 20px;
+    }
 }
 @media only screen and (max-device-width: 480px){
     .icons{
-        right: -16%;
+        right: -11%;
     }
     .foot-menu{
         display: none;
+    }
+    .up{
+        font-size: 35px;
+        right: 20px;
+        bottom: 20px;
     }
 }
 

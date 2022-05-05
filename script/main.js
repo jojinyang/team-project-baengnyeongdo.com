@@ -1,4 +1,3 @@
-let i = 0;
 $(function(){
     menu();
     //슬라이드
