@@ -315,7 +315,7 @@ h3{
     }
     .cont2 li:nth-child(4){
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .cont2 li:nth-child(4) > .img{
         padding: 50px 0;
@@ -383,18 +383,21 @@ h3{
 
 }
 @media only screen and (max-device-width: 480px){
-    h2{
-        font-size: 18px;
+    body{
+        font-family: 'Noto Sans KR', sans-serif;
     }
-    h3{
+    h2{
         font-size: 16px;
     }
+    h3{
+        font-size: 14px;
+    }
     .shorcut-wrap h2{
-        font-size: 18px;
+        font-size: 16px;
     }
     .cont2 li:nth-child(4){
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .cont2 li:nth-child(4) > .img{
         padding: 50px 0;
@@ -402,22 +405,27 @@ h3{
         height: 40vw;
     }
     .text h3{
-        font-size: 16px;
+        font-size: 14px;
         padding: 10px;
     }
     .cont3 li:nth-child(4) h3{
-        font-size: 14px;
+        font-size: 13px;
     }
     .cont3 li:nth-child(5) h2{
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
     .cont3 li:nth-child(6) a{
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
+    .cont3 li:nth-child(8){
+        display: flex;
+        justify-content: center;
+        column-gap: 5px;
+    }
     .cont3 li:nth-child(8) a{
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
     .cs-center{
