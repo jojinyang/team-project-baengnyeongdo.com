@@ -10,9 +10,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/trip.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
         <title>백령도</title>
     </head>
@@ -20,24 +20,23 @@
     <header>
         <div class="header-wrap">
             <div class="logo">
-                <a href="#"><img src="images/logo.png" alt="백령도로고이미지"></a>
+                <a href="./index.html"><img src="images/logo.png" alt="백령도"></a>
             </div>
-            <div class="nav">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div id="nav-pop">
-                <div class="nav-x">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-                <ul class="gnb">
-                    <li><a href="#">백령도</a></li>
-                    <li><a href="#">백령도 여행</a></li>
-                    <li><a href="#">점박이 물범</a></li>
-                    <li><a href="#">공지사항</a></li>
-                </ul>
-            </div>
+            <ul class="nav">
+                 <li><a href="./info.html">백령도</a></li>
+                 <li><a href="./trip.html">백령도 여행</a></li>
+                 <li><a href="./spottedseal.html">점박이 물범</a></li>
+                 <li><a href="./guide.html">안내사항</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="http://www.khoa.go.kr/swtc/main.do"><i class="fa-solid fa-water"></i>물때확인</a></li>
+                <li><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EB%B0%B1%EB%A0%B9%EB%8F%84+%EB%82%A0%EC%94%A8&oquery=%EA%B8%B0%EC%83%81%EC%B2%AD&tqi=hFdFIdp0JywssOl4ZpdssssssER-079022"><i class="fa-solid fa-umbrella"></i>날씨정보</a></li>
+                <li><a href="http://www.ipfc.or.kr/content/view.do?menuKey=993&contentKey=52"><i class="fa-solid fa-anchor"></i>입출항정보</a></li>
+            </ul>
+            <div class="menu_bar"><i class="fa-solid fa-bars"></i></div>
+            <div class="menu_x"><i class="fa-solid fa-xmark"></i></div>
         </div>
-    </header>
+     </header>
     <div class="wrap">
         <div class="contents">
             <div class="attraction">
@@ -70,35 +69,30 @@
                 </ul>
             </div>
         </div>
-        <div class="content-3">
-            <div class="video-wrap">
-                <h3>백령도 여행 미리보기</h3>
-                <iframe src="https://www.youtube.com/embed/elsybGXUdgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
     </div>
     <footer>
         <div class="footer-wrap">
             <div class="foot-menu">
                 <ul>
-                    <li><a href="#">백령도</a></li>
-                    <li><a href="#">백령도 여행</a></li>
-                    <li><a href="#">점박이 물범</a></li>
-                    <li><a href="#">공지사항</a></li>
+                    <li><a href="./info.html">백령도</a></li>
+                    <li><a href="./trip.html">백령도 여행</a></li>
+                    <li><a href="./spottedseal.html">점박이 물범</a></li>
+                    <li><a href="./guide.html">공지사항</a></li>
                 </ul>
             </div>
              <p>Since 2022 Baengyeondo Site. All right reserved</p>
              <p>인천광역시 옹진궁 백령면 진촌리</p>
              <ul class="site">
-                 <li><a href="#"><img src="images/incheon mono.png" alt="인천광역시"></a></li>
-                 <li><a href="#"><img src="images/incheonnews nomo.png" alt="인천뉴스"></a></li>
-                 <li><a href="#"><img src="images/ongjin mono.png" alt="옹진군"></a></li>
-                 <li><a href="#"><img src="images/education mono.png" alt="인천교육청"></a></li>
-                 <li><a href="#"><img src="images/environment nomo.png" alt="환경운동연합"></a></li>
+                 <li><a href="https://www.incheon.go.kr/index"><img src="images/incheon mono.png" alt="인천광역시"></a></li>
+                 <li><a href="https://www.incheonnews.com/"><img src="images/incheonnews nomo.png" alt="인천뉴스"></a></li>
+                 <li><a href="https://www.ongjin.go.kr/open_content/main/"><img src="images/ongjin mono.png" alt="옹진군"></a></li>
+                 <li><a href="https://www.ice.go.kr/main.do?s=ice"><img src="images/education mono.png" alt="인천교육청"></a></li>
+                 <li><a href="http://kfem.or.kr/"><img src="images/environment nomo.png" alt="환경운동연합"></a></li>
              </ul>
         </div>
     </footer>
-    
+    <a class="up" href="#"><i class="fa-solid fa-circle-up"></i></a>
     <script src="script/index.js"></script>
+    <script src="script/main.js"></script>
 </body>
 </html>

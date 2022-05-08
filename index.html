@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -12,48 +13,41 @@
     <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png"  type="image/x-icon">
     <title>백령도</title>
 </head>
 <body>
     <header>
-        <div class="header-wrap">
-            <div class="logo">
-                <a href="#"><img src="images/logo.png" alt="백령도로고이미지"></a>
-            </div>
-            <div class="nav">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div id="nav-pop">
-                <div class="nav-x">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-                <ul class="gnb">
-                    <li><a href="#">백령도</a></li>
-                    <li><a href="#">백령도 여행</a></li>
-                    <li><a href="#">점박이 물범</a></li>
-                    <li><a href="#">공지사항</a></li>
-                </ul>
-            </div>
-        </div>
+       <div class="header-wrap">
+           <div class="logo">
+               <a href="./index.html"><img src="images/logo.png" alt="백령도"></a>
+           </div>
+           <ul class="nav">
+                <li><a href="./info.html">백령도</a></li>
+                <li><a href="./trip.html">백령도 여행</a></li>
+                <li><a href="./spottedseal.html">점박이 물범</a></li>
+                <li><a href="./guide.html">안내사항</a></li>
+           </ul>
+           <ul class="icons">
+               <li><a href="http://www.khoa.go.kr/swtc/main.do"><i class="fa-solid fa-water"></i>물때확인</a></li>
+               <li><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EB%B0%B1%EB%A0%B9%EB%8F%84+%EB%82%A0%EC%94%A8&oquery=%EA%B8%B0%EC%83%81%EC%B2%AD&tqi=hFdFIdp0JywssOl4ZpdssssssER-079022"><i class="fa-solid fa-umbrella"></i>날씨정보</a></li>
+               <li><a href="http://www.ipfc.or.kr/content/view.do?menuKey=993&contentKey=52"><i class="fa-solid fa-anchor"></i>입출항정보</a></li>
+           </ul>
+           <div class="menu_bar"><i class="fa-solid fa-bars"></i></div>
+           <div class="menu_x"><i class="fa-solid fa-xmark"></i></div>
+       </div>
     </header>
+    <div class="slide">
+        <ul id="items">
+            <li class="top"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- /.slide -->
     <section>
-        <div class="slide">
-            <ul id="items">
-                <li><img src="images/index/slide1.png" alt="청정해역백령도"></li>
-                <li><img src="images/index/slide2.png" alt="점박이물범 백령도"></li>
-                <li><img src="images/index/slide3.png" alt="인당수 백령도"></li>
-                <li><img src="images/index/slide4.png" alt="심청각 백령도"></li>
-                <li><img src="images/index/slide5.png" alt="콩돌해변 백령도"></li>
-            </ul>
-            <ul class="btns">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
         <div class="content-1">
             <div class="seal-content">
                 <p>백령도 귀염둥이</p>
@@ -62,35 +56,38 @@
                     <span class="line-box"></span>
                     <div class="seal-banner">
                         <ul class="seal-items">
-                            <li><a href="#"><img src="images/Index/article1-banner2.png" alt="점박이물범2"></a></li>
-                            <li><a href="#"><img src="images/Index/article1-banner1.png" alt="점박이물범"></a></li>
+                            <li class="top"><a href="./spottedseal.html"></a></li>
+                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="seal-boxs">
                         <ul class="seal-box1">
-                            <li><img class="round-seal"src="images/Index/article1-button2.png" alt="물범 이미지"></li>
+                            <li><div class="round-seal"></div></li>
                             <li>
-                                <a href="#">
-                                    <h2>서식지<br>정보</h2>
-                                    <img class="go" src="images/go-btn.png" alt="보러가기">
+                                <a href="./spottedseal.html">
+                                    <div class="h2-wrap">
+                                        <h2>서식지<br>정보</h2>
+                                    </div>
+                                    <div class="go-btn"><img src="images/go-btn.png" alt="go"></div>
                                 </a>
                             </li>
                         </ul>
                         <ul class="seal-box2">
                             <li>
-                                <a href="#">
-                                    <p>점박이 물범?</p>
-                                    <p>더 알아보기</p>
-                                    <img class="go" src="images/go-btn.png" alt="보러가기">
+                                <a href="./spottedseal.html">
+                                    <div class="h2-wrap">
+                                        <h2>점박이 물범<br>더 알아보기</h2>
+                                    </div>
+                                    <div class="go-btn"><img src="images/go-btn.png" alt="go"></div>
                                 </a>
                             </li>
-                            <li><a href="#"><img src="images/index/article1-button1.png" alt="관광코스보기"></a></li>
+                            <li><a href="./spottedseal.html">보기</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /.content-1 -->
+        <!-- trip -->
         <div class="content-2">
             <div class="trip">
                 <p>어디로 갈까요?</p>
@@ -99,12 +96,12 @@
                     <div class="trip-boxs">
                         <ul class="trip-box1">
                             <li>
-                                <a href="#">
-                                    <img src="images/Index/article2-button1.png" alt="자연명소 알아보기">
+                                <a href="./trip.html">
+                                    보기
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="./info.html">
                                     <i class="fa-solid fa-location-dot"></i>
                                     <p>오시는길</p>
                                 </a>
@@ -112,51 +109,57 @@
                         </ul>
                         <ul class="trip-box2">
                             <li>
-                                <a href="#">
+                                <a href="./guide.html">
                                     <i class="fa-solid fa-coins"></i>
                                     <p>요금안내</p>
                                 </a>
                             </li>
-                            <li><a href="#"><img src="images/index/article2-button2.png" alt="관람/체험 알아보기"></a></li>
+                            <li><a href="./experience.html">보기</a></li>
                         </ul>
                     </div>
                     <div class="trip-banner">
                         <ul class="trip-items">
-                            <li><img src="images/Index/article2-banner.png" alt="백령도자연명관"></li>
-                            <li><img src="images/Index/article2-banner2.png" alt="백령도자연명관"></li>
+                            <li class="top"><a href="#"></a></li>
+                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /.content-2 -->
+        <!-- trip -->
+        <!-- video -->
         <div class="content-3">
             <div class="video-wrap">
                 <h3>백령도 여행 미리보기</h3>
                 <iframe src="https://www.youtube.com/embed/elsybGXUdgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <!-- /.content-3 -->
+        <!-- video -->
     </section>
+    <!-- section -->
     <footer>
-        <div class="foot-menu">
-            <ul>
-                <li><a href="#">백령도</a></li>
-                <li><a href="#">백령도 여행</a></li>
-                <li><a href="#">점박이 물범</a></li>
-                <li><a href="#">공지사항</a></li>
-            </ul>
+        <div class="footer-wrap">
+            <div class="foot-menu">
+                <ul>
+                    <li><a href="./info.html">백령도</a></li>
+                    <li><a href="./trip.html">백령도 여행</a></li>
+                    <li><a href="./spottedseal.html">점박이 물범</a></li>
+                    <li><a href="./guide.html">공지사항</a></li>
+                </ul>
+            </div>
+             <p>Since 2022 Baengyeondo Site. All right reserved</p>
+             <p>인천광역시 옹진궁 백령면 진촌리</p>
+             <ul class="site">
+                 <li><a href="https://www.incheon.go.kr/index"><img src="images/incheon mono.png" alt="인천광역시"></a></li>
+                 <li><a href="https://www.incheonnews.com/"><img src="images/incheonnews nomo.png" alt="인천뉴스"></a></li>
+                 <li><a href="https://www.ongjin.go.kr/open_content/main/"><img src="images/ongjin mono.png" alt="옹진군"></a></li>
+                 <li><a href="https://www.ice.go.kr/main.do?s=ice"><img src="images/education mono.png" alt="인천교육청"></a></li>
+                 <li><a href="http://kfem.or.kr/"><img src="images/environment nomo.png" alt="환경운동연합"></a></li>
+             </ul>
         </div>
-         <p>Since 2022 Baengyeondo Site. All right reserved</p>
-         <p>인천광역시 옹진궁 백령면 진촌리</p>
-         <ul class="site">
-             <li><a href="#"><img src="images/incheon mono.png" alt="인천광역시"></a></li>
-             <li><a href="#"><img src="images/incheonnews nomo.png" alt="인천뉴스"></a></li>
-             <li><a href="#"><img src="images/ongjin mono.png" alt="옹진군"></a></li>
-             <li><a href="#"><img src="images/education mono.png" alt="인천교육청"></a></li>
-             <li><a href="#"><img src="images/environment nomo.png" alt="환경운동연합"></a></li>
-         </ul>
     </footer>
+    <a class="up" href="#"><i class="fa-solid fa-circle-up"></i></a>
     <script src="script/index.js"></script>
+    <script src="script/main.js"></script>
 </body>
 </html>

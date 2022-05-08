@@ -1,0 +1,238 @@
+.body{
+    font: 16px/1.5;
+    font-family : 'Noto Sans KR', sans-serif;
+}
+.title{
+    margin-top: 5vw;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+.active{
+    color: #0d69af;
+    border-bottom: 3px solid #0d69af !important;
+}
+.title li:hover{
+    cursor: pointer;
+    color: #0d69af;
+    border-bottom: 3px solid #0d69af
+
+}
+.title li:first-child{
+    padding: 20px 30px;
+    border-bottom: 2px solid #cccccc;
+}
+.title li:last-child{
+    padding: 20px 30px;
+    border-bottom: 2px solid #cccccc;
+}
+/* ============================= */
+.seal-travel > div{
+    width: 80vw;
+    height: 40vw;
+    margin: 0 auto;
+}
+.seal-travel > div > img{
+    width: 100%;
+}
+/* ====================점박이 물범 소개============================= */
+h2{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5vw 0;
+    color: #0d69af;
+}
+.slide{
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+}
+.itmes-wrap{
+    margin: 0 auto;
+    width: 80vw;
+    height: 40vw;
+    overflow: hidden;
+}
+#items{
+    width: 560vw;
+    height: 40vw;
+    transition: all ease-in-out .3s;
+}
+.top{
+    opacity: 1 !important;
+    z-index: 1 ;
+}
+#items > li{
+    position: absolute;
+    width: 80vw;
+    height: 40vw;
+    opacity: 0;
+    z-index: 0;
+    transition: all ease-in-out .5s;
+}
+#items > li >img{
+    width: 100%;
+}
+.btns{
+    z-index: 100;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 90%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.btns > li{
+    opacity: 50%;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: #cccccc;
+}
+.next{
+    width: 90vw;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.next button{
+    opacity: 70%;
+    z-index: 100;
+    padding: 14px 20px;
+    background-color: #0d69af;
+    border: 0;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+.contents{
+    background: #eaf6fd;
+    padding: 3vw 0;
+    margin-top: 5vw;
+}
+.map{
+    width: 50vw;
+    height: 40vw;
+    margin: 0 auto;
+}
+.map > img{
+    width: 100%;
+}
+.kr-wrap{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    justify-content: center;
+    column-gap: 5vw;
+    align-items: center;
+}
+.text{
+    text-align: center;
+}
+.kr-map{
+    width: 50vw;
+}
+.kr-map > img{
+    width: 100%;
+}
+iframe{
+    margin: 0 auto;
+    width: 70vw;
+    height: 35vw;
+    padding: 0 15vw 5vw 15vw;
+}
+/* ============반응형============= */
+@media screen and (max-width: 1200px){
+    .next{
+        width: 95vw;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .next{
+        width: 80vw;
+    }
+    .next button{
+        width: 40vw;
+        height: 40vw;
+        border-radius: 0;
+        opacity: 0;
+    }
+    h2{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .title{
+        font-size: 1rem;
+    }
+    .h2{
+        margin: 5vw 0;
+    }
+    .map{
+        width: 50vw;
+        height: 40vw;
+        margin: 0 auto;
+    }
+    .kr-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .kr-map{
+        width: 80vw;
+    }
+    .btns > li{
+        width: 10px;
+        height: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .title{
+        font-size: .825rem;
+    }
+    .title li:nth-child(1){
+        padding: 5px 10px;
+    }
+    .title li:nth-child(2){
+        padding: 5px 10px;
+    }
+    .btns{
+        top: 70%; 
+    }
+
+}
+@media only screen and (max-device-width: 480px){
+    .title{
+        font-size: 1rem;
+    }
+    .h2{
+        margin: 5vw 0;
+    }
+    .map{
+        width: 50vw;
+        height: 40vw;
+        margin: 0 auto;
+    }
+    .kr-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .kr-map{
+        width: 80vw;
+    }
+    .btns > li{
+        width: 10px;
+        height: 10px;
+    }
+    .btns{
+        top: 83%; 
+    }
+}
