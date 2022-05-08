@@ -29,13 +29,29 @@ ul{
     font-size: 100px;
 }
 .contents{
-    width: 100vw;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
 }
-.attraction >h2{
+.topme{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+}
+.topme >h2, .topme>a {
     font-size: 22pt;
-    margin: 0 0 200px 0;
+    margin: 50px 0 50px 0;
+    font-weight: bold;
+    color: #0D69AF;
+    text-align: center;
+}
+.topme > a:hover{
+    color: red;
+}
+.experience >h2 , .experience >a{
+    font-size: 22pt;
+    margin: 50px 0 50px 0;
     font-weight: bold;
     color: #0D69AF;
     text-align: center;
@@ -49,6 +65,29 @@ ul{
     height: 500px;
     margin: 0 auto;
     border: 1px solid #ccc;
+}
+.experience > ul > li{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.experience > ul{
+    display: flex;
+    width: 1200px;
+}
+.bonmun1 > li{
+    float: left;
+    padding: 20px;
+}
+.bonmun2 > li{
+    padding: 20px;
+    float: left;
+}
+.bonmun3 > li{
+    float: left;
+    padding: 20px;
 }
 .tit{
     font-weight: bold;
