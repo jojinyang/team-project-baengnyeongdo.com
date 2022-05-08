@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family : 'Noto Sans KR', sans-serif;
     background: white;
     color: #333;
 }
@@ -30,11 +31,29 @@ ul{
 }
 .contents{
     width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 0 50px 0;
 }
-.attraction >h2{
+.topme{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+}
+.topme >h2, .topme>a {
     font-size: 22pt;
-    border-bottom: 1px solid #0D69AF;
-    margin: 0 0 200px 0;
+    margin: 50px 0 50px 0;
+    font-weight: bold;
+    color: #0D69AF;
+    text-align: center;
+}
+.topme > a:hover{
+    color: red;
+}
+.experience >h2 , .experience >a{
+    font-size: 22pt;
+    margin: 50px 0 50px 0;
     font-weight: bold;
     color: #0D69AF;
     text-align: center;
@@ -48,6 +67,29 @@ ul{
     height: 500px;
     margin: 0 auto;
     border: 1px solid #ccc;
+}
+.experience > ul > li{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.experience > ul{
+    display: flex;
+    width: 1200px;
+}
+.bon{
+    margin: 0 auto;
+}
+.bonmun1{
+    display: flex;
+}
+.bonmun2 {
+    display: flex;
+}
+.bonmun3 {
+    display: flex;
 }
 .tit{
     font-weight: bold;
@@ -77,4 +119,34 @@ iframe{
     width: 800px;
     height: 400px;
     padding: 100px;
+}
+
+/* ============================================반응형====================================================== */
+@media screen and (max-width: 768px){
+    
+    
+    /* slide */
+    .topme{
+        width: 50vw;
+        overflow: hidden;
+        display: block;
+    }
+    .bonmun1{
+        display: block;
+    }
+    .bonmun2{
+        display: block;
+    }
+    .bonmun3{
+        display: block;
+    }
+    .attraction > ul{
+        width: 100vw;
+        justify-content: center;
+        display: block;
+    }
+    .attraction > ul >li{
+        margin-bottom: 20px;
+
+    }
 }
