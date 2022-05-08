@@ -29,11 +29,12 @@ ul{
     font-size: 100px;
 }
 .contents{
-    width: 1200px;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
 }
 .attraction >h2{
     font-size: 22pt;
-    border-bottom: 1px solid #0D69AF;
     margin: 0 0 200px 0;
     font-weight: bold;
     color: #0D69AF;
@@ -57,4 +58,24 @@ ul{
 .su{
     font-size: 18px;
     padding: 0 0 0 20px;
+}
+.video-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+.video-wrap > h3{
+    text-align: center;
+    margin-top: 100px;
+    color: #0d69af;
+}
+iframe{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    padding: 100px;
 }
