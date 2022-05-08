@@ -79,17 +79,17 @@ ul{
     display: flex;
     width: 1200px;
 }
-.bonmun1 > li{
-    float: left;
-    padding: 20px;
+.bon{
+    margin: 0 auto;
 }
-.bonmun2 > li{
-    padding: 20px;
-    float: left;
+.bonmun1{
+    display: flex;
 }
-.bonmun3 > li{
-    float: left;
-    padding: 20px;
+.bonmun2 {
+    display: flex;
+}
+.bonmun3 {
+    display: flex;
 }
 .tit{
     font-weight: bold;
@@ -122,18 +122,31 @@ iframe{
 }
 
 /* ============================================반응형====================================================== */
-@media screen and (max-width: 768px)
-   
+@media screen and (max-width: 768px){
+    
+    
     /* slide */
     .topme{
         width: 50vw;
         overflow: hidden;
+        display: block;
     }
-    .bon-wrap{
+    .bonmun1{
+        display: block;
+    }
+    .bonmun2{
+        display: block;
+    }
+    .bonmun3{
+        display: block;
+    }
+    .attraction > ul{
         width: 100vw;
-        height: 300px;
+        justify-content: center;
+        display: block;
     }
-    .bonmun > li{
-        width: 100vw;
-        height: 300px;
+    .attraction > ul >li{
+        margin-bottom: 20px;
+
     }
+}
