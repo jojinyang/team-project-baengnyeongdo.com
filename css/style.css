@@ -7,9 +7,8 @@ a, a:link{
 d-none{
     display: none;
 }
-body{
-    font: 16px/1.5;
-    font-family : 'Noto Sans KR', sans-serif;
+.body{
+    font: 16px/1.5 'Noto Sans KR', sans-serif;
 }
 /* header-start */
 header{

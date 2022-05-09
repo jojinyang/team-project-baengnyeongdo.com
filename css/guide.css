@@ -1,6 +1,5 @@
 .body{
-    font: 16px/1.5;
-    font-family : 'Noto Sans KR', sans-serif;
+    font: 16px/1.5 'Noto Sans KR', sans-serif;
 }
 h2{
     text-align: center;

@@ -5,10 +5,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    font-family : 'Noto Sans KR', sans-serif;
-    background: white;
-    color: #333;
+.body{
+    font: 16px/1.5 'Noto Sans KR', sans-serif;
 }
 
 ul{
