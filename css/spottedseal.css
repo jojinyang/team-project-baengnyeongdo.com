@@ -54,7 +54,6 @@ h2{
     overflow: hidden;
 }
 #items{
-    width: 560vw;
     height: 40vw;
     transition: all ease-in-out .3s;
 }
