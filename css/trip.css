@@ -35,21 +35,29 @@ ul{
     display: flex;
     padding: 0 0 50px 0;
 }
-.topme{
+.title {
+    margin-top: 5vw;
+    font-size: 1.25rem;
     display: flex;
-    margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.active{
+    color: #0d69af;
+    border-bottom: 3px solid #0d69af !important;
+}
+.title li:hover{
+    cursor: pointer;
+    color: #0d69af;
+    border-bottom: 3px solid #0d69af
 
 }
-.topme >h2, .topme>a {
-    font-size: 22pt;
-    margin: 50px 0 50px 0;
-    font-weight: bold;
-    color: #0D69AF;
-    text-align: center;
+.title li:first-child{
+    padding: 20px 30px;
+    border-bottom: 2px solid #cccccc;
 }
-.topme > a:hover{
-    color: red;
+.title li:last-child{
+    padding: 20px 30px;
+    border-bottom: 2px solid #cccccc;
 }
 .experience >h2 , .experience >a{
     font-size: 22pt;
@@ -58,9 +66,18 @@ ul{
     color: #0D69AF;
     text-align: center;
 }
+.attraction >h2{
+    font-size: 22pt;
+    margin: 50px 0 50px 0;
+    font-weight: bold;
+    color: #0D69AF;
+    text-align: center;
+    
+}
 .attraction > ul{
     display: flex;
     width: 1200px;
+    flex-wrap: wrap;
 }
 .attraction > ul > li{
     width: 350px;
@@ -75,21 +92,47 @@ ul{
     margin: 0 auto;
     border: 1px solid #ccc;
 }
+.experience{
+    width: 1200px;
+}
 .experience > ul{
     display: flex;
-    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 .bon{
     margin: 0 auto;
 }
+.bonmun{
+    padding-bottom: 20px;
+}
+.bon > ul{
+    width: 1200px;
+
+}
 .bonmun1{
+    width: 1200px;
     display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 .bonmun2 {
+    width: 1200px;
     display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 .bonmun3 {
+    width: 1200px;
     display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.bonmun4 {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 .tit{
     font-weight: bold;
